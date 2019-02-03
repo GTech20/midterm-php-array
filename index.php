@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <title>MIDTERM-PHP-ARRAY</title>
     <body>
         <div>
@@ -8,7 +9,8 @@
             krsort($age);
             
             foreach($age as $x => $x_value){
-                echo "Key=" . $x . ", Value=" . $x_value;
+                echo "<tr>";
+                echo "<td>" . "Key=" . $x . ", Value=" . $x_value;
                 echo "<br>";
             }
         ?>
